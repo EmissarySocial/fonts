@@ -1,0 +1,69 @@
+{
+	themeId: "fontpack"
+
+	// Every font in this pack, shaped as form.LookupCode so a font picker can read it
+	// directly.  Value is the CSS family name to write into font-family; Href is the ONE
+	// file to load for that family -- the variable upright where the family has one,
+	// because that single file already carries every weight, otherwise the regular.
+	// Italics and static weights sit beside it in the same folder.
+	datasets: {
+		fonts: [
+			{Label:"Alegreya",                   Group:"Serif",       Value:"Alegreya",                   Href:"/.themes/fontpack/resources/Alegreya/Alegreya-VariableFont_wght.woff2"}
+			{Label:"Crimson Pro",                Group:"Serif",       Value:"Crimson Pro",                Href:"/.themes/fontpack/resources/Crimson_Pro/CrimsonPro-VariableFont_wght.woff2"}
+			{Label:"EB Garamond",                Group:"Serif",       Value:"EB Garamond",                Href:"/.themes/fontpack/resources/EB_Garamond/EBGaramond-VariableFont_wght.woff2"}
+			{Label:"Faustina",                   Group:"Serif",       Value:"Faustina",                   Href:"/.themes/fontpack/resources/Faustina/Faustina-VariableFont_wght.woff2"}
+			{Label:"IBM Plex Serif",             Group:"Serif",       Value:"IBM Plex Serif",             Href:"/.themes/fontpack/resources/IBM_Plex_Serif/IBMPlexSerif-Regular.woff2"}
+			{Label:"Libre Baskerville",          Group:"Serif",       Value:"Libre Baskerville",          Href:"/.themes/fontpack/resources/Libre_Baskerville/LibreBaskerville-VariableFont_wght.woff2"}
+			{Label:"Literata",                   Group:"Serif",       Value:"Literata",                   Href:"/.themes/fontpack/resources/Literata/Literata-VariableFont_opsz,wght.woff2"}
+			{Label:"Lora",                       Group:"Serif",       Value:"Lora",                       Href:"/.themes/fontpack/resources/Lora/Lora-VariableFont_wght.woff2"}
+			{Label:"Merriweather",               Group:"Serif",       Value:"Merriweather",               Href:"/.themes/fontpack/resources/Merriweather/Merriweather-VariableFont_opsz,wdth,wght.woff2"}
+			{Label:"Newsreader",                 Group:"Serif",       Value:"Newsreader",                 Href:"/.themes/fontpack/resources/Newsreader/Newsreader-VariableFont_opsz,wght.woff2"}
+			{Label:"Noto Serif",                 Group:"Serif",       Value:"Noto Serif",                 Href:"/.themes/fontpack/resources/Noto_Serif/NotoSerif-VariableFont_wdth,wght.woff2"}
+			{Label:"PT Serif Caption",           Group:"Serif",       Value:"PT Serif Caption",           Href:"/.themes/fontpack/resources/PT_Serif_Caption/PTSerifCaption-Regular.woff2"}
+			{Label:"Source Serif 4",             Group:"Serif",       Value:"Source Serif 4",             Href:"/.themes/fontpack/resources/Source_Serif_4/SourceSerif4-VariableFont_opsz,wght.woff2"}
+			{Label:"Spectral",                   Group:"Serif",       Value:"Spectral",                   Href:"/.themes/fontpack/resources/Spectral/Spectral-Regular.woff2"}
+			{Label:"Tinos",                      Group:"Serif",       Value:"Tinos",                      Href:"/.themes/fontpack/resources/Tinos/Tinos-Regular.woff2"}
+
+			{Label:"Aleo",                       Group:"Slab Serif",  Value:"Aleo",                       Href:"/.themes/fontpack/resources/Aleo/Aleo-VariableFont_wght.woff2"}
+			{Label:"Besley",                     Group:"Slab Serif",  Value:"Besley",                     Href:"/.themes/fontpack/resources/Besley/Besley-VariableFont_wght.woff2"}
+			{Label:"Bitter",                     Group:"Slab Serif",  Value:"Bitter",                     Href:"/.themes/fontpack/resources/Bitter/Bitter-VariableFont_wght.woff2"}
+			{Label:"Bree Serif",                 Group:"Slab Serif",  Value:"Bree Serif",                 Href:"/.themes/fontpack/resources/Bree_Serif/BreeSerif-Regular.woff2"}
+			{Label:"Crete Round",                Group:"Slab Serif",  Value:"Crete Round",                Href:"/.themes/fontpack/resources/Crete_Round/CreteRound-Regular.woff2"}
+			{Label:"Enriqueta",                  Group:"Slab Serif",  Value:"Enriqueta",                  Href:"/.themes/fontpack/resources/Enriqueta/Enriqueta-Regular.woff2"}
+			{Label:"Roboto Slab",                Group:"Slab Serif",  Value:"Roboto Slab",                Href:"/.themes/fontpack/resources/Roboto_Slab/RobotoSlab-VariableFont_wght.woff2"}
+			{Label:"Zilla Slab",                 Group:"Slab Serif",  Value:"Zilla Slab",                 Href:"/.themes/fontpack/resources/Zilla_Slab/ZillaSlab-Regular.woff2"}
+
+			{Label:"Atkinson Hyperlegible",      Group:"Sans Serif",  Value:"Atkinson Hyperlegible",      Href:"/.themes/fontpack/resources/Atkinson_Hyperlegible/AtkinsonHyperlegible-Regular.woff2"}
+			{Label:"Fira Sans",                  Group:"Sans Serif",  Value:"Fira Sans",                  Href:"/.themes/fontpack/resources/Fira_Sans/FiraSans-Regular.woff2"}
+			{Label:"Fira Sans Condensed",        Group:"Sans Serif",  Value:"Fira Sans Condensed",        Href:"/.themes/fontpack/resources/Fira_Sans_Condensed/FiraSansCondensed-Regular.woff2"}
+			{Label:"Fira Sans Extra Condensed",  Group:"Sans Serif",  Value:"Fira Sans Extra Condensed",  Href:"/.themes/fontpack/resources/Fira_Sans_Extra_Condensed/FiraSansExtraCondensed-Regular.woff2"}
+			{Label:"IBM Plex Sans",              Group:"Sans Serif",  Value:"IBM Plex Sans",              Href:"/.themes/fontpack/resources/IBM_Plex_Sans/IBMPlexSans-VariableFont_wdth,wght.woff2"}
+			{Label:"Inter",                      Group:"Sans Serif",  Value:"Inter",                      Href:"/.themes/fontpack/resources/Inter/Inter-VariableFont_opsz,wght.woff2"}
+			{Label:"Lato",                       Group:"Sans Serif",  Value:"Lato",                       Href:"/.themes/fontpack/resources/Lato/Lato-Regular.woff2"}
+			{Label:"Montserrat",                 Group:"Sans Serif",  Value:"Montserrat",                 Href:"/.themes/fontpack/resources/Montserrat/Montserrat.woff2"}
+			{Label:"Noto Sans",                  Group:"Sans Serif",  Value:"Noto Sans",                  Href:"/.themes/fontpack/resources/Noto_Sans/NotoSans-VariableFont_wdth,wght.woff2"}
+			{Label:"Nunito Sans",                Group:"Sans Serif",  Value:"Nunito Sans",                Href:"/.themes/fontpack/resources/Nunito_Sans/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.woff2"}
+			{Label:"Quicksand",                  Group:"Sans Serif",  Value:"Quicksand",                  Href:"/.themes/fontpack/resources/Quicksand/Quicksand-VariableFont_wght.woff2"}
+			{Label:"Raleway",                    Group:"Sans Serif",  Value:"Raleway",                    Href:"/.themes/fontpack/resources/Raleway/Raleway-VariableFont_wght.woff2"}
+			{Label:"Schibsted Grotesk",          Group:"Sans Serif",  Value:"Schibsted Grotesk",          Href:"/.themes/fontpack/resources/Schibsted_Grotesk/SchibstedGrotesk-VariableFont_wght.woff2"}
+			{Label:"Source Sans 3",              Group:"Sans Serif",  Value:"Source Sans 3",              Href:"/.themes/fontpack/resources/Source_Sans_3/SourceSans3-VariableFont_wght.woff2"}
+			{Label:"Work Sans",                  Group:"Sans Serif",  Value:"Work Sans",                  Href:"/.themes/fontpack/resources/Work_Sans/WorkSans-VariableFont_wght.woff2"}
+
+			{Label:"Fira Code",                  Group:"Monospace",   Value:"Fira Code",                  Href:"/.themes/fontpack/resources/Fira_Code/FiraCode-VariableFont_wght.woff2"}
+			{Label:"Fira Mono",                  Group:"Monospace",   Value:"Fira Mono",                  Href:"/.themes/fontpack/resources/Fira_Mono/FiraMono-Regular.woff2"}
+			{Label:"Hack",                       Group:"Monospace",   Value:"Hack",                       Href:"/.themes/fontpack/resources/Hack/Hack-Regular.woff2"}
+			{Label:"IBM Plex Mono",              Group:"Monospace",   Value:"IBM Plex Mono",              Href:"/.themes/fontpack/resources/IBM_Plex_Mono/IBMPlexMono-Regular.woff2"}
+
+			{Label:"Abril Fatface",              Group:"Display",     Value:"Abril Fatface",              Href:"/.themes/fontpack/resources/Abril_Fatface/AbrilFatface-Regular.woff2"}
+			{Label:"Cinzel",                     Group:"Display",     Value:"Cinzel",                     Href:"/.themes/fontpack/resources/Cinzel/Cinzel-VariableFont_wght.woff2"}
+			{Label:"Forum",                      Group:"Display",     Value:"Forum",                      Href:"/.themes/fontpack/resources/Forum/Forum-Regular.woff2"}
+			{Label:"Instrument Serif",           Group:"Display",     Value:"Instrument Serif",           Href:"/.themes/fontpack/resources/Instrument_Serif/InstrumentSerif-Regular.woff2"}
+			{Label:"Maragsa",                    Group:"Display",     Value:"Maragsa",                    Href:"/.themes/fontpack/resources/Maragsa/MaragsaDisplay.woff2"}
+			{Label:"Marcellus",                  Group:"Display",     Value:"Marcellus",                  Href:"/.themes/fontpack/resources/Marcellus/Marcellus-Regular.woff2"}
+			{Label:"Playfair Display",           Group:"Display",     Value:"Playfair Display",           Href:"/.themes/fontpack/resources/Playfair_Display/PlayfairDisplay-VariableFont_wght.woff2"}
+
+			{Label:"Satisfy",                    Group:"Script",      Value:"Satisfy",                    Href:"/.themes/fontpack/resources/Satisfy/Satisfy-Regular.woff2"}
+
+		]
+	}
+}
